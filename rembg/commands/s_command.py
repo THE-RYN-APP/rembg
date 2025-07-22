@@ -62,7 +62,7 @@ from ..sessions.base import BaseSession
     help="Flag to enable the Gradio UI or put in API-only mode).",
 )
 
-def s_command(port: int, host: str, log_level: str, threads: int) -> None:
+def s_command(port: int, host: str, log_level: str, threads: int, ui: bool) -> None:
     """
     Command-line interface for running the FastAPI web server.
 
