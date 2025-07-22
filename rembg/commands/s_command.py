@@ -58,7 +58,7 @@ from ..sessions.base import BaseSession
 @click.option(
     "--ui",
     is_flag=True,
-    default=True,
+    default=False,
     help="Flag to enable the Gradio UI or put in API-only mode).",
 )
 
